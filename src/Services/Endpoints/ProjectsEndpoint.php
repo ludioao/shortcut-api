@@ -1,8 +1,6 @@
 <?php
 
-
 namespace LudioAo\Shortcut\Services\Endpoints;
-
 
 class ProjectsEndpoint extends Endpoint
 {

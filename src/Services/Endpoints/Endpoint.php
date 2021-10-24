@@ -1,8 +1,6 @@
 <?php
 
-
 namespace LudioAo\Shortcut\Services\Endpoints;
-
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\Validator;
@@ -69,5 +67,4 @@ abstract class Endpoint
             $this->getBaseUri() . "/{$id}"
         );
     }
-
 }

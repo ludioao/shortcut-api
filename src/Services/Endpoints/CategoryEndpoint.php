@@ -1,8 +1,6 @@
 <?php
 
-
 namespace LudioAo\Shortcut\Services\Endpoints;
-
 
 class CategoryEndpoint extends Endpoint
 {
@@ -10,5 +8,4 @@ class CategoryEndpoint extends Endpoint
     {
         return '/categories';
     }
-
 }

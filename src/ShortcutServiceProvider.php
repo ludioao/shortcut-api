@@ -4,7 +4,6 @@ namespace LudioAo\Shortcut;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use LudioAo\Shortcut\Commands\SkeletonCommand;
 
 class ShortcutServiceProvider extends PackageServiceProvider
 {
