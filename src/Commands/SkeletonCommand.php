@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace LudioAo\Shortcut\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,17 +1,13 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
-    "keywords": [
-        ":vendor_name",
-        "laravel",
-        ":package_slug"
-    ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "name": "ludioao/shortcut-api",
+    "description": "API Shortcut",
+    "keywords": [],
+    "homepage": "https://github.com/ludioao/shortcut-api",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Lúdio Oliveira",
+            "email": "ludio.aO@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,8 +26,8 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "LudioAo\\Shortcut\\": "src",
+            "LudioAo\\Shortcut\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
@@ -49,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "LudioAo\\Shortcut\\ShortcutServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "Shortcut": "LudioAo\\Shortcut\\ShortcutFacade"
             }
         }
     },
